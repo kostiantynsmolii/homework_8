@@ -36,5 +36,13 @@ public class ShapeTest {
                 for(Shape fig : figure)
 
         System.out.println(fig.myName() + ": area = " + fig.calculateArea());
+
+                System.out.println("----");
+                trapezoid.showName();
+                circle.showName();
+                quad.showName();
+                circle.showName();
+                rectangle.showName();
     }
+
 }
